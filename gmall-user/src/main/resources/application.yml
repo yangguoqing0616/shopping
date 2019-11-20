@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://127.0.0.1:3306
+
+mybatis:
+  mapper-locations: classpath:mapper/*mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
